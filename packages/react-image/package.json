@@ -1,0 +1,6 @@
+{
+  "name": "react-image",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
