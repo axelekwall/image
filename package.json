@@ -1,6 +1,9 @@
 {
   "name": "image",
   "private": true,
+  "engines": {
+    "node": ">=12"
+  },
   "workspaces": [
     "packages/*"
   ]
