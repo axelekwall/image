@@ -1,2 +1,8 @@
-export * as ReactImage from './ReactImage';
+export * as Image from './Image';
 
+export {
+  useContentfulImage,
+  useSanityImage,
+  useIEObjectFitPolyfill,
+  useImgLazyLoad,
+} from './hooks';
