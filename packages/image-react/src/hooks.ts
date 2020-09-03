@@ -8,9 +8,9 @@ import {
   useMemo,
 } from 'react';
 
-import { ImageSize, Format, SrcSet } from './types';
+import { ImageSize, Format, SrcSet } from '@axelekwall/image-shared';
 import defaults from './defaults';
-import urlBuilder from './urlBuilder'
+import urlBuilder from './urlBuilder';
 
 interface UseSanityImageProps {
   baseUrl: string;

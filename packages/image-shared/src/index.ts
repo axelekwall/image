@@ -1,1 +1,3 @@
-export * as types from './types'
+export * from './types';
+
+export const hej = () => 'hej';

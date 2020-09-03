@@ -1,4 +1,4 @@
-import { Format, ImageSize, SrcSet } from './types';
+import { ImageSize, Format, SrcSet } from '@axelekwall/image-shared';
 
 export interface GetSanitySourceProps {
   baseUrl: string;
