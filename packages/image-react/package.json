@@ -1,9 +1,10 @@
 {
-  "name": "@axelekwall/react-image",
+  "name": "@axelekwall/image-react",
   "version": "0.0.0",
   "author": "Axel Ekwall <axel.ekwall@hey.com>",
   "description": "An image component to be used in web based react applications",
   "license": "MIT",
+  "private": false,
   "main": "dist/main.js",
   "module": "dist/module.js",
   "files": [
