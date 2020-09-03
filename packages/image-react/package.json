@@ -23,9 +23,11 @@
     "dev": "yarn storybook"
   },
   "dependencies": {
-    "@axelekwall/image-shared": "0.0.0"
+    "@axelekwall/image-shared": "0.0.0",
+    "object-fit-images": "^3.2.4"
   },
   "devDependencies": {
+    "@axelekwall/image-source-sanity": "0.0.0",
     "@babel/core": "^7.11.5",
     "@mdx-js/react": "^1.6.16",
     "@rollup/plugin-typescript": "^5.0.2",

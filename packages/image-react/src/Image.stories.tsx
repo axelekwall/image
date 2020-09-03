@@ -1,7 +1,7 @@
 // Button.stories.tsx
 
 import React, { FC } from 'react';
-import { Meta } from '@storybook/react/types-6-0';
+import { Meta } from '@storybook/react';
 import Image from './Image';
 
 export default {
@@ -9,5 +9,4 @@ export default {
   component: Image,
 } as Meta;
 
-
-export const Default: FC = () => <Image />
+export const Default: FC = () => <div>Hej</div>;

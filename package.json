@@ -7,6 +7,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "lerna run build",
+    "shared": "yarn workspace @axelekwall/image-shared"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

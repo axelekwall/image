@@ -5,8 +5,8 @@
   "author": "Axel Ekwall <axel.ekwall@hey.com>",
   "license": "MIT",
   "private": false,
-  "main": "dist/main.js",
-  "module": "dist/module.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],

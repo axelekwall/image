@@ -14,5 +14,15 @@ export interface Format {
 }
 
 export type Fit = 'crop' | 'scale' | 'pad' | 'fill';
+export type SanityFit = 'min' | 'max' | 'clip' | 'fillmax' | Fit;
+export type ContentfulFit = 'pad' | Fit;
 
 export type FormatName = 'jpg' | 'png' | 'webp' | 'original';
+
+export interface QueryStringProps {
+  size?: ImageSize;
+  fit?: ContentfulFit;
+  format: FormatName;
+  quality?: number;
+  resolution?: number;
+}

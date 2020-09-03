@@ -1,5 +1,5 @@
 import React, { FC, HTMLAttributes, CSSProperties } from 'react';
-import { ImageSize, SrcSet } from './types';
+import { ImageSize, SrcSet } from '@axelekwall/image-shared';
 import { useImgLazyLoad, useIEObjectFitPolyfill } from './hooks';
 
 interface Props extends HTMLAttributes<HTMLImageElement> {

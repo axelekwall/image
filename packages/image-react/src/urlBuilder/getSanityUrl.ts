@@ -1,5 +1,8 @@
-import { addQueryString, getQueryString } from './shared';
-import { QueryStringProps } from './types';
+import {
+  addQueryString,
+  getQueryString,
+  QueryStringProps,
+} from '@axelekwall/image-shared';
 
 export interface GetSanityUrlProps extends QueryStringProps {
   baseUrl: string;
